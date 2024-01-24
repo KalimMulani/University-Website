@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>University Website Design</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+	<nav>
+		<a href="Project.html"><img src="images/l.png"></a>
+		<div class="nav-links" id ="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="Project.html">HOME</a></li>
+				<li><a href="About.html">ABOUT</a></li>
+				<li><a href="Course.html">COURSE</a></li>
+				<li><a href="Blog.html">BLOG</a></li>
+				<li><a href="Contact.html">CONTACT</a></li>
+			</ul>	
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+	<div class="text-box">
+		<h1>The Northwestern University </h1>
+		<p>The Northwesttern University is one of the best university in the world.The campus of the University is tremendously large.<br>University also includes extra curicular activities and has a huge stadium for this activites.<br>Campus include various labs and has a huge library.You can get best placements from our campus selections. 
+		</p>
+		<a href=""class="hero-btn">Visit Us to know More</a>
+	</div>
+
+
+
+</section>
+
+<!----------------Course---------------->
+<section class="course">
+	<h1>Courses We Offer</h1>
+	<p>We offer many courses related to Science and Technology.Also we offer Enginnering Coures.<br>We offer both Bachelors and Masters Degree at our University.</p>
+
+	<div class="row">
+		<div class="course-col">
+			<h3>Intermediate</h3>
+			<p>Intermidiate Courses have all  the tecnical courses.</p>
+	</div>
+	<div class="course-col">
+			<h3>Bachelor Degree</h3>
+			<p>Bachelor Degree Courses have all the engineering courses.</p>
+	</div>
+	<div class="course-col">
+			<h3>Master Degree</h3>
+			<p>Master Degree courses have all the specialized engineering Courses.</p>
+	</div>
+	
+</section>
+ 
+ <!-------------------Campus------------------->
+ <section class="campus">
+ 	<h1>Our Global Campus</h1>
+ 	<p>There are three global campus of Northwestern univesity situated in UK,USA and Australia.</p>
+    <div class="row">
+    	<div class="campus-col">
+    		<img src="images/london.png">
+    		<div class="layer"><h3>LONDON</h3></div>
+    	</div>
+    	<div class="campus-col">
+    		<img src="images/newyork.png">
+    		<div class="layer"><h3>NEW YORK</h3></div>
+    	</div>
+    	<div class="campus-col">
+    		<img src="images/washington.png">
+    		<div class="layer"><h3>SYDNEY</h3></div>
+    	</div>
+    </div>
+</section>
+
+<!---------------Facilities------------------>
+
+<section>
+	<div class="facilities">
+		<h1>Our facilities</h1>
+		<p>We provide various facilities to the students such as  providing college hostels,transport facilities,sports stadium,cafetaria,library and information centre,college canteen,etc </p>
+		<div class="row">
+			<div class="facilities-col">
+				<img src="images/library.png">
+				<h3>World Class Library</h3>
+				<p>It is one of the biggest libraries in the world having more than 25000 varieties of different books.</p>
+			</div>
+			<div class="facilities-col">
+				<img src="images/stadium.png">
+				<h3>Sports Stadium</h3>
+				<p>Its a large stadium for students to play and refresh themselves and enjoy.</p>
+			</div>
+			<div class="facilities-col">
+				<img src="images/cafeteria.png">
+				<h3>Cafeteria</h3>
+				<p>Theres a nice Cafeteria for students to have tasty and healty food.</p>
+			</div>
+		    </div>
+	</div>
+</section>
+
+<!--------------Testimonials----------------->
+<section class="tests">
+	<h1>What Our Students Says</h1>
+	<p>Reviews of some of students from our University.</p>
+	<div class="row">
+		<div class="test-col">
+			<img src="images/user1.jpg">
+			<div>
+				<p>One of the best campus in the world with highly qualiified teaching staff and lots of things to do in the campus. </p>
+				<h3>Alexa Johnsons</h3>
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+                <i class="fa fa-star-o" ></i>
+			</div>
+		</div>
+		<div class="test-col">
+			<img src="images/user2.jpg">
+			<div>
+				<p>I am one of the passed out student from this university had a great expirience and  got high paid job because of the proper education in the campus. </p>
+				<h3>Karl Byers</h3>
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+                <i class="fa fa-star-half-o" ></i>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-------------Call To Actionn-------------->
+
+<section class="call">
+	<h1>Enroll to our various online courses <br>anywhere from the world</h1>
+	<a href="" class="hero-btn">Contact Us</a>
+</section>
+
+<!-------------Footer-------------->
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>We make lives better by producing leaders of society and equipping <br>our people with leadership qualities so they can serve our communities at every level.</p>
+	<div class="icons">
+		<i class="fa fa-facebook" ></i>
+		<i class="fa fa-twitter" ></i>
+		<i class="fa fa-instagram" ></i>
+		<i class="fa fa-linkedin" ></i>
+	</div>
+	<p>Made with<i class="fa fa-heart-o" ></i>by Project group</p>
+</section>
+
+<!-------Javascript for  Toggle Menu-------->
+<script type="text/javascript">
+	var navLinks= document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right="0";
+    }
+	function hideMenu(){
+		navLinks.style.right="-200px";
+	}
+</script>
+</body>
+</html>

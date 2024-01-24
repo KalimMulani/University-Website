@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>University Website Design</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+	<nav>
+		<a href="Project..html"><img src="images/l.png"></a>
+		<div class="nav-links" id ="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="Project.html">HOME</a></li>
+				<li><a href="About.html">ABOUT</a></li>
+				<li><a href="Course.html">COURSE</a></li>
+				<li><a href="Blog.html">BLOG</a></li>
+				<li><a href="Contact.html">CONTACT</a></li>
+			</ul>	
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+	<h1>About Us</h1>
+</section>
+
+<!--------------About us content--------------->
+
+<section class="about-us">
+	<div class="row">
+		<div class="about-col">
+			<h1>We are one of the largest University.</h1>
+			<p>We are one of the most renowed and largest University in the whole world.This University was eastablished in 1942 since this is one of the oldest unniversity of the world. </p>
+			<a href="" class="hero-btn , red-btn">Explore Now</a>
+		</div>
+		<div class="about-col">
+			<img src="images/about.jpg">
+		</div>
+	</div>
+</section>
+
+<!-------------Footer-------------->
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>We make lives better by producing leaders of society and equipping <br>our people with leadership qualities so they can serve our communities at every level.</p>
+	<div class="icons">
+		<i class="fa fa-facebook" ></i>
+		<i class="fa fa-twitter" ></i>
+		<i class="fa fa-instagram" ></i>
+		<i class="fa fa-linkedin" ></i>
+	</div>
+	<p>Made with<i class="fa fa-heart-o" ></i>by Project group</p>
+</section>
+
+<!-------Javascript for  Toggle Menu-------->
+<script type="text/javascript">
+	var navLinks= document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right="0";
+    }
+	function hideMenu(){
+		navLinks.style.right="-200px";
+	}
+</script>
+</body>
+</html>
